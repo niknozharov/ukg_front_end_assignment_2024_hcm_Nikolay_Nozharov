@@ -1,0 +1,18 @@
+<div class="header-wrapper">
+  <div class="d-flex justify-space-between align-center">
+    <a href="home"
+      ><img alt="ukg-logo" height="50" src="../../../assets/images/logo.jpeg"
+    /></a>
+    <p *ngIf="user" class="d-flex align-center">
+      Hello {{ user.gender === "male" ? "Mr. " : "Mrs. " }}{{ user.name }}
+      <button
+        mat-icon-button
+        color="primary"
+        (click)="logout()"
+        matTooltip="Logout"
+      >
+        <mat-icon aria-hidden="false" fontIcon="logout"></mat-icon>
+      </button>
+    </p>
+  </div>
+</div>

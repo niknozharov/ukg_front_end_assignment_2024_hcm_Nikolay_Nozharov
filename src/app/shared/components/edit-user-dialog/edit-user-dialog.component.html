@@ -1,0 +1,54 @@
+<div class="p-40px w-400px">
+  <h1 class="title-text">Edit user - {{ data.name }}</h1>
+  <form
+    class="form-container"
+    [formGroup]="employeeForm"
+    (ngSubmit)="onSubmit()"
+  >
+    <mat-form-field appearance="fill">
+      <mat-label>Company</mat-label>
+      <input matInput formControlName="company" placeholder="Enter company" />
+      <mat-error
+        *ngIf="
+          employeeForm.get('company')?.invalid &&
+          employeeForm.get('company')?.touched
+        "
+      >
+        Company is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" placeholder="Enter email" />
+      <mat-error
+        *ngIf="
+          employeeForm.get('email')?.invalid &&
+          employeeForm.get('email')?.touched
+        "
+      >
+        Email is required and must be a valid email address
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Address</mat-label>
+      <input matInput formControlName="address" placeholder="Enter address" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Role</mat-label>
+      <input matInput formControlName="role" placeholder="Enter role" />
+      <mat-error
+        *ngIf="
+          employeeForm.get('role')?.invalid && employeeForm.get('role')?.touched
+        "
+      >
+        Role is required
+      </mat-error>
+    </mat-form-field>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit">Submit</button>
+    </mat-card-actions>
+  </form>
+</div>

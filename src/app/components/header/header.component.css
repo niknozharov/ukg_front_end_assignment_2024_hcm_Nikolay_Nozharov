@@ -1,0 +1,14 @@
+.header-wrapper {
+  background-color: black;
+  height: 50px;
+  color: white;
+  padding-right: 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}

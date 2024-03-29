@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "355275748",
+      "index": 3,
+      "name": "Jeanine Baxter",
+      "gender": "female",
+      "company": "SULTRAXIN",
+      "email": "jeaninebaxter@sultraxin.com",
+      "phone": "+1 (981) 580-2010",
+      "address": "159 Varanda Place, Lopezo, Iowa, 6149",
+      "role": "USER",
+      "password": "abcd1234!Q@W"
+    },
+    {
+      "id": "355275747",
+      "index": 4,
+      "name": "name1",
+      "gender": "male",
+      "company": "asdsad",
+      "email": "name1@name.cc",
+      "phone": "",
+      "address": "address2244",
+      "role": "ADMIN",
+      "password": "abcd1234!Q@W"
+    },
+    {
+      "id": "355275746",
+      "index": 5,
+      "name": "name2",
+      "gender": "female",
+      "company": "",
+      "email": "name2@name.cc",
+      "phone": "",
+      "address": "",
+      "role": "USER",
+      "password": "abcd1234!Q@W"
+    },
+    {
+      "id": "355275745",
+      "index": 6,
+      "name": "name3",
+      "gender": "male",
+      "company": "",
+      "email": "name3@name.cc",
+      "phone": "",
+      "address": "",
+      "role": "USER",
+      "password": "abcd1234!Q@W"
+    },
+    {
+      "id": "355275744",
+      "index": 7,
+      "name": "name4",
+      "gender": "male",
+      "company": "comapny4",
+      "email": "name4@name.cc",
+      "phone": "",
+      "address": "address4",
+      "role": "USER",
+      "password": "abcd1234!Q@W"
+    },
+    {
+      "id": "355275743",
+      "index": 8,
+      "name": "name5",
+      "gender": "male",
+      "company": "comapny 323",
+      "email": "name5@name.cc",
+      "phone": "",
+      "address": "234234234",
+      "role": "ADMIN",
+      "password": "abcd1234!Q@W"
+    }
+  ]
+}
